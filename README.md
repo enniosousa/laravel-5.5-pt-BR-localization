@@ -4,7 +4,7 @@ O arquivo README.md foi baseado no do repositório [Leomhl/laravel-5.4-pt-br-loc
 
 ## Instalação
 
-1. Clonar este projeto para uma pasta dentro de `resources/lang/`
+1. Clonar este projeto na pasta `resources/lang/` do seu projeto
   ```
   $ cd resources/lang/
   $ git clone https://github.com/enniosousa/laravel-5.5-pt-BR-localization.git ./pt-BR
