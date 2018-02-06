@@ -16,6 +16,11 @@ O arquivo README.md foi baseado no do repositório [Leomhl/laravel-5.4-pt-br-loc
   $ rm -r pt-BR/.git/
   ```
   
+  Se você estiver usando Windows Server ou Azure
+  ```
+  rd /s /q pt-BR/.git/
+  ```
+  
 2. Configurar o Framework para utilizar a linguagem como Default
   ```
   // Linha 81 do arquivo config/app.php
