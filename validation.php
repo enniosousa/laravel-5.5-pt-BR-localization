@@ -14,8 +14,8 @@ return [
     */
 
     'accepted'             => 'O campo :attribute deve ser aceito.',
-    'active_url'           => 'O campo :attribute não é um URL válido.',
-    'after'                => 'O campo :attribute deve ser uma data depois :date.',
+    'active_url'           => 'O campo :attribute não é uma URL válido.',
+    'after'                => 'O campo :attribute deve ser uma data posterior a :date.',
     'after_or_equal'       => 'O campo :attribute deve ser uma data posterior ou igual a :date.',
     'alpha'                => 'O campo :attribute só pode conter letras.',
     'alpha_dash'           => 'O campo :attribute só pode conter letras, números e traços.',
@@ -56,8 +56,8 @@ return [
         'string'  => 'O campo :attribute não pode ser superior a :max caracteres.',
         'array'   => 'O campo :attribute não pode ter mais do que :max itens.',
     ],
-    'mimes'                => 'O campo :attribute deve ser um arquivo de tipo: :values.',
-    'mimetypes'            => 'O campo :attribute deve ser um arquivo de tipo: :values.',
+    'mimes'                => 'O campo :attribute deve ser um arquivo do tipo: :values.',
+    'mimetypes'            => 'O campo :attribute deve ser um arquivo do tipo: :values.',
     'min'                  => [
         'numeric' => 'O campo :attribute deve ser pelo menos :min.',
         'file'    => 'O campo :attribute deve ter pelo menos :min kilobytes.',
@@ -69,8 +69,8 @@ return [
     'present'              => 'O campo :attribute deve estar presente.',
     'regex'                => 'O campo :attribute tem um formato inválido.',
     'required'             => 'O campo :attribute é obrigatório.',
-    'required_if'          => 'O campo :attribute é obrigatório quando :other é :value.',
-    'required_unless'      => 'O campo :attribute é obrigatório exceto quando :other seja :values.',
+    'required_if'          => 'O campo :attribute é obrigatório quando :other for :value.',
+    'required_unless'      => 'O campo :attribute é obrigatório exceto quando :other for :values.',
     'required_with'        => 'O campo :attribute é obrigatório quando :values está presente.',
     'required_with_all'    => 'O campo :attribute é obrigatório quando :values está presente.',
     'required_without'     => 'O campo :attribute é obrigatório quando :values não está presente.',
@@ -85,7 +85,7 @@ return [
     'string'               => 'O campo :attribute deve ser uma string.',
     'timezone'             => 'O campo :attribute deve ser uma zona válida.',
     'unique'               => 'O campo :attribute já está sendo utilizado.',
-    'uploaded'             => 'O campo :attribute falha no upload.',
+    'uploaded'             => 'Ocorreu uma falha no upload do campo :attribute.',
     'url'                  => 'O campo :attribute tem um formato inválido.',
 
     /*
