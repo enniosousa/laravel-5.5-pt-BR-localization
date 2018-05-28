@@ -41,7 +41,7 @@ return [
     'email'                => 'O campo :attribute deve ser um endereço de e-mail válido.',
     'exists'               => 'O campo :attribute selecionado é inválido.',
     'file'                 => 'O campo :attribute deve ser um arquivo.',
-    'filled'               => 'O campo :attribute o campo deve ter um valor.',
+    'filled'               => 'O campo :attribute deve ter um valor.',
     'image'                => 'O campo :attribute deve ser uma imagem.',
     'in'                   => 'O campo :attribute selecionado é inválido.',
     'in_array'             => 'O campo :attribute não existe em :other.',
